@@ -15,7 +15,7 @@ Provides guidelines and FAQ for the development of the Ardalo Digital Platform.
         * [\[Could\] Service contains status badges in README](#could-service-contains-status-badges-in-readme)
     * [Infrastructure](#infrastructure)
         * [\[Must\] Service is Dockerized](#must-service-is-dockerized)
-        * [\[Must\] Service is added to docker-compose.yml of digital-platform-overview](#must-service-is-added-to-docker-composeyml-of-digital-platform-overview)
+        * [\[Must\] Service is added to README.md of adp-overview](#must-service-is-added-to-readmemd-of-adp-overview)
     * [Tracing](#tracing)
         * [\[Must\] HTTP Requests contain Request-ID](#must-http-requests-contain-request-id)
         * [\[Must\] Log messages contain Request-ID](#must-log-messages-contain-request-id)
@@ -235,7 +235,7 @@ best practices which should be adopted by services of the Ardalo Digital Platfor
 - Infrastructure
     - [ ] Service is dockerized ([ℹ](#must-service-is-dockerized))
     - [ ] Service is added to [`README.md` of `adp-overview`](https://github.com/ardalo/adp-overview/blob/main/README.md)
-      ([ℹ](#must-service-is-added-to-READMEmd-of-adp-overview))
+      ([ℹ](#must-service-is-added-to-readmemd-of-adp-overview))
 - Tracing
     - [ ] HTTP Requests contain Request-ID ([ℹ](#must-http-requests-contain-request-id))
     - [ ] Log messages contain Request-ID ([ℹ](#must-log-messages-contain-request-id))
