@@ -16,7 +16,7 @@ Provides guidelines and FAQ for the development of the Ardalo Digital Platform.
     * [Infrastructure](#infrastructure)
         * [\[Must\] Service is Dockerized](#must-service-is-dockerized)
         * [\[Must\] Service is added to README.md of adp-overview](#must-service-is-added-to-readmemd-of-adp-overview)
-        * [\[Must\] Open API Documentation of the service is accessible via $SERVICE_NAME.api.ardalo.com](#must-open-api-documentation-of-the-service-is-accessible-via-service-nameapiardalocom)
+        * [\[Must\] Open API documentation of the service is accessible via $SERVICE_NAME.api.ardalo.com](#must-open-api-documentation-of-the-service-is-accessible-via-service_nameapiardalocom)
     * [Tracing](#tracing)
         * [\[Must\] HTTP Requests contain Request-ID](#must-http-requests-contain-request-id)
         * [\[Must\] Log messages contain Request-ID](#must-log-messages-contain-request-id)
@@ -167,7 +167,7 @@ There are two types of rules:
 * The [adp-overview](https://github.com/ardalo/adp-overview) repository provides  a `README.md` file which
   aims to give an overview to the whole platform.
 
-#### [Must] Open API Documentation of the service is accessible via $SERVICE_NAME.api.ardalo.com
+#### [Must] Open API documentation of the service is accessible via $SERVICE_NAME.api.ardalo.com
 
 **Details:**
 * The Open API documentation of the service must be available under the domain `$SERVICE_NAME.api.ardalo.com`
@@ -247,7 +247,7 @@ best practices which should be adopted by services of the Ardalo Digital Platfor
     - [ ] Service is dockerized ([ℹ](#must-service-is-dockerized))
     - [ ] Service is added to [`README.md` of `adp-overview`](https://github.com/ardalo/adp-overview/blob/main/README.md)
       ([ℹ](#must-service-is-added-to-readmemd-of-adp-overview))
-  - [ ] Open API documentation is accessible via `<service-name>.api.ardalo.com` ([ℹ](#must-open-api-documentation-of-the-service-is-accessible-via-service-nameapiardalocom))
+  - [ ] Open API documentation is accessible via `<service-name>.api.ardalo.com` ([ℹ](#must-open-api-documentation-of-the-service-is-accessible-via-service_nameapiardalocom))
 - Tracing
     - [ ] HTTP Requests contain Request-ID ([ℹ](#must-http-requests-contain-request-id))
     - [ ] Log messages contain Request-ID ([ℹ](#must-log-messages-contain-request-id))
