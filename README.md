@@ -247,7 +247,7 @@ best practices which should be adopted by services of the Ardalo Digital Platfor
     - [ ] Service is dockerized ([ℹ](#must-service-is-dockerized))
     - [ ] Service is added to [`README.md` of `adp-overview`](https://github.com/ardalo/adp-overview/blob/main/README.md)
       ([ℹ](#must-service-is-added-to-readmemd-of-adp-overview))
-  - [ ] Open API documentation is accessible via `<service-name>.api.ardalo.com` ([ℹ](#must-open-api-documentation-of-the-service-is-accessible-via-service_nameapiardalocom))
+  - [ ] Open API documentation is accessible via `$SERVICE_NAME.api.ardalo.com` ([ℹ](#must-open-api-documentation-of-the-service-is-accessible-via-service_nameapiardalocom))
 - Tracing
     - [ ] HTTP Requests contain Request-ID ([ℹ](#must-http-requests-contain-request-id))
     - [ ] Log messages contain Request-ID ([ℹ](#must-log-messages-contain-request-id))
