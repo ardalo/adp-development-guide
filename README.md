@@ -49,7 +49,7 @@ There are two types of rules:
   ```text
   MIT License
   
-  Copyright (c) 2022 Torsten Blasche
+  Copyright (c) 2023 Torsten Blasche
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -258,11 +258,7 @@ best practices which should be adopted by services of the Ardalo Digital Platfor
 
 ### Update Project Dependencies
 
-#### Update Gradle Wrapper
-
-1. Find current Gradle version: https://gradle.org/releases/
-2. Check release notes for breaking changes, new features etc.
-3. Run Gradle wrapper update command:
+#### Update gradle wrapper to latest gradle version
    ```console
-   $ ./gradlew wrapper --gradle-version=<gradle version, e.g. 7.6>
+   $ ./gradlew wrapper --gradle-version latest
    ```
