@@ -25,7 +25,7 @@ Provides guidelines and FAQ for the development of the Ardalo Digital Platform.
 * [Service Implementation Checklist](#service-implementation-checklist)
 * [FAQ](#faq)
     * [Update Project Dependencies](#update-project-dependencies)
-        * [Update Gradle Wrapper](#update-gradle-wrapper)
+        * [Update Gradle Wrapper](#update-gradle-wrapper-to-latest-gradle-version)
 
 ## Guideline structure explained
 
