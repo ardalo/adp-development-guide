@@ -15,7 +15,7 @@ Provides guidelines and FAQ for the development of the Ardalo Digital Platform.
         * [\[Could\] Service contains status badges in README](#could-service-contains-status-badges-in-readme)
     * [Infrastructure](#infrastructure)
         * [\[Must\] Service is Dockerized](#must-service-is-dockerized)
-        * [\[Must\] Service is added to README.md of adp-overview](#must-service-is-added-to-readmemd-of-adp-overview)
+        * [\[Must\] Service is added to README.md of platform](#must-service-is-added-to-readmemd-of-platform)
         * [\[Must\] Open API documentation of the service is accessible via $SERVICE_NAME.api.ardalo.com](#must-open-api-documentation-of-the-service-is-accessible-via-service_nameapiardalocom)
     * [Tracing](#tracing)
         * [\[Must\] HTTP Requests contain Request-ID](#must-http-requests-contain-request-id)
@@ -49,7 +49,7 @@ There are two types of rules:
   ```text
   MIT License
   
-  Copyright (c) 2023 Torsten Blasche
+  Copyright (c) 2024 Torsten Blasche
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -138,7 +138,7 @@ There are two types of rules:
 **Details:**
 * Service may contain badges in its README file which provide insights of its current status
 * Common badges:
-    * Build Status (from GitHub Actions), e.g. ![Build Status](https://github.com/ardalo/adp-customer-account-service/workflows/Main/badge.svg)
+    * Build Status (from GitHub Actions), e.g. ![Build Status](https://github.com/ardalo/adp-customer-account-service/workflows/CI/badge.svg)
     * Code Coverage (from SonarCloud), e.g. ![Code Coverage](https://sonarcloud.io/api/project_badges/measure?project=ardalo_adp-customer-account-service&metric=coverage)
 
 **Background:**
@@ -158,13 +158,13 @@ There are two types of rules:
 * Kubernetes has been chosen as the runtime environment of the Ardalo Digital Platform. Thus every service
   must provide a Docker Image of itself.
 
-#### [Must] Service is added to README.md of adp-overview
+#### [Must] Service is added to README.md of `platform`-Repository
 
 **Details:**
-* Service needs to be added to [`README.md`](https://github.com/ardalo/adp-overview/blob/main/README.md)
+* Service needs to be added to [`README.md`](https://github.com/ardalo/platform/blob/main/README.md)
 
 **Background:**
-* The [adp-overview](https://github.com/ardalo/adp-overview) repository provides  a `README.md` file which
+* The [platform](https://github.com/ardalo/platform) repository provides a `README.md` file which
   aims to give an overview to the whole platform.
 
 #### [Must] Open API documentation of the service is accessible via $SERVICE_NAME.api.ardalo.com
@@ -245,8 +245,8 @@ best practices which should be adopted by services of the Ardalo Digital Platfor
     - [ ] (Optional) Service contains a "Code Coverage"-Badge in its README ([ℹ](#could-service-contains-status-badges-in-readme))
 - Infrastructure
     - [ ] Service is dockerized ([ℹ](#must-service-is-dockerized))
-    - [ ] Service is added to [`README.md` of `adp-overview`](https://github.com/ardalo/adp-overview/blob/main/README.md)
-      ([ℹ](#must-service-is-added-to-readmemd-of-adp-overview))
+    - [ ] Service is added to [`README.md` of `platform`](https://github.com/ardalo/platform/blob/main/README.md)
+      ([ℹ](#must-service-is-added-to-readmemd-of-platform))
   - [ ] Open API documentation is accessible via `$SERVICE_NAME.api.ardalo.com` ([ℹ](#must-open-api-documentation-of-the-service-is-accessible-via-service_nameapiardalocom))
 - Tracing
     - [ ] HTTP Requests contain Request-ID ([ℹ](#must-http-requests-contain-request-id))
